@@ -11,7 +11,7 @@ var LiveScore = React.createClass({
   },
   loadLatestScores: function() {
     $.ajax({
-      headers: { 'X-Auth-Token': 'YOUR_API_KEY' },
+      headers: { 'X-Auth-Token': '748797416faf4f2397807abad2ca59ee' },
       url: 'http://api.football-data.org/v1/teams/' + this.props.team + '/fixtures',
       dataType: 'json',
       cache: false,
